@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Brackey"
+run/main_scene="uid://2ajhj34seshn"
 config/features=PackedStringArray("4.6", "Mobile")
 config/icon="res://icon.svg"
 
@@ -24,5 +25,5 @@ project/assembly_name="Brackey"
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
-renderer/rendering_method="mobile"
